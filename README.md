@@ -12,7 +12,7 @@ This repository contains my C++ practice programs while learning programming fro
 * Functions
 * Arrays
 * Strings
-* Pattern Printing
+* Logic Building
 
  Folder Structure
 
