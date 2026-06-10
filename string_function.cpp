@@ -11,5 +11,11 @@ int main(){
     cout << "Substring :" << str.substr(1,3) << endl;
     str.erase(3,4);
     cout << "String after erasing: " << str << endl;
+    str.find("smith");
+    if (str.find("Smith") != string::npos) {
+        cout << "Substring 'Smith' found at index: " << str.find("Smith") << endl;
+    } else {
+        cout << "Substring 'Smith' not found." << endl;
+    }
     return 0;
 }
